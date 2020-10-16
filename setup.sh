@@ -35,8 +35,6 @@ echo "╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮�
 echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯" | lolcat
 echo
 clear
-pip2 install -r requirements.txt
-clear
 pip2 install mechanize
 clear
 pip2 install requests
