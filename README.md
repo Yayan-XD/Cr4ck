@@ -60,13 +60,10 @@ git clone https://github.com/Yayan-XD/Cr4ck
 cd Cr4ck
 bash setup.sh
 ```
-* Username and password login tools
-<img src="https://github.com/Yayan-XD/Silent/blob/master/Screenshot_20200927_192443-picsay.png" />
-
 ## MY SOCIAL MEDIA
 [![Github](https://img.shields.io/badge/Github-Ikuti-green?style=for-the-badge&logo=github)](https://github.com/Yayan-XD)
 [![Twitter](https://img.shields.io/badge/twitter-Ikuti-green?style=for-the-badge&logo=Twitter)](https://mobile.twitter.com/moch_xd)
 [![Facebook](https://img.shields.io/badge/Facebook-Ikuti-green?style=for-the-badge&logo=facebook)](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR)
 [![Instagram](https://img.shields.io/badge/Instagram-Ikuti-green?style=for-the-badge&logo=instagram)](https://Instagram.com/yayanxd_)
-* Kalo masih kurang paham bisa hubungi WhatsApp👇
+* Kalo masih ada yg kurang paham bisa hubungi WhatsApp👇
 [![WhatsApp](https://img.shields.io/badge/whatsapp-Hubungi-brightgreen?style=for-the-badge&logo=whatsapp)](https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0)
