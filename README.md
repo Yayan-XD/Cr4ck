@@ -57,7 +57,7 @@ git clone https://github.com/Yayan-XD/Cr4ck
 ```
 ### And Silent this script
 ```
-cd Silent
+cd Cr4ck
 bash setup.sh
 ```
 * Username and password login tools
