@@ -3,7 +3,7 @@
 #Mau recode bro? 
 #gak papa recode saja soalnya
 #file ini kosong yahaha hayukkk
-mport os, sys, time, mechanize, itertools, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib
+import os, sys, time, mechanize, itertools, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib
 from multiprocessing.pool import ThreadPool
 P = '\033[1;97m'
 M = '\033[1;91m'
