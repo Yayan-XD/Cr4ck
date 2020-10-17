@@ -43,4 +43,6 @@ pip2 install mechanize
 clear
 pip2 install requests
 clear
+pip install requests bs4
+clear
 python2 run.py
