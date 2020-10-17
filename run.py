@@ -106,7 +106,7 @@ jalan("\033[1;95mSudahkah anda mempunyai username&password untuk login tools?")
 jalan("\033[1;92mKalo tidak punya ngasal saja tod nanti di alihkan")
 print "\033[1;94m────────────────────────────────────────────────"""
 CorrectUsername = "Yayan"
-CorrectPassword = "Gans"
+CorrectPassword = "Ganteng"
 
 loop = 'true'
 while (loop == 'true'):
@@ -119,10 +119,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;93mSalah Jembut:v"
-            os.system('xdg-open https://github.com/Yayan-XD/Cr4ck')
+            os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
     else:
         print "\033[1;93mSalah Jembut:v"
-        os.system('xdg-open https://github.com/Yayan-XD/Cr4ck')
+        os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
 
 ##### LICENSE #####
 #=================#
