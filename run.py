@@ -106,24 +106,23 @@ jalan("\033[1;95mSudahkah anda mempunyai username&password untuk login tools?")
 jalan("\033[1;92mKalo tidak punya ngasal saja tod nanti di alihkan")
 print "\033[1;94m────────────────────────────────────────────────"""
 CorrectUsername = "Yayan"
-CorrectPassword = "Ganteng"
+CorrectPassword = "Gans"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;92m 🔒 \x1b[1;92mUsername \x1b[1;97m»» \x1b[1;94m")
+    username = raw_input("\033[1;92m 🔒 \x1b[1;92mUsername Login Tools \x1b[1;97m»» \x1b[1;95m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;92m 🔒 \x1b[1;92mPassword \x1b[1;97m»» \x1b[1;94m")
+    	password = raw_input("\033[1;92m 🔒 \x1b[1;92mPassword Login Tools \x1b[1;97m»» \x1b[1;95m")
         if (password == CorrectPassword):
-            print "Loggin berhasil"
+            print "Logged in successfully as " + username #Dev:YayanXD
 	    time.sleep(2)
             loop = 'false'
         else:
-            print "\033[1;93mSalah jembut:v"
+            print "\033[1;93mSalah Tolol!"
             os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
-        else:
-            print "\033[1;93mSalah jembut:v"
-            os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
-
+    else:
+        print "\033[1;93mSalah tolol!"
+        os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
 
 ##### LICENSE #####
 #=================#
