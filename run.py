@@ -120,9 +120,10 @@ while (loop == 'true'):
         else:
             print "\033[1;93mSalah jembut:v"
             os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
-    else:
-        print "\033[1;93mSalah jembut:v"
-        os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
+        else:
+            print "\033[1;93mSalah jembut:v"
+            os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
+
 
 ##### LICENSE #####
 #=================#
