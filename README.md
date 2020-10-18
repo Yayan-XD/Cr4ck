@@ -59,8 +59,10 @@ git clone https://github.com/Yayan-XD/Cr4ck
 cd Cr4ck
 bash setup.sh
 ```
+
 * Username & password 
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/IMG_20201018_102805.JPG" />
+
 ## MY SOCIAL MEDIA
 [![Github](https://img.shields.io/badge/Github-Ikuti-green?style=for-the-badge&logo=github)](https://github.com/Yayan-XD)
 [![Twitter](https://img.shields.io/badge/twitter-Ikuti-green?style=for-the-badge&logo=Twitter)](https://mobile.twitter.com/moch_xd)
