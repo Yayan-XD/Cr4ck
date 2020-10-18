@@ -6,8 +6,6 @@ echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
 echo
 pkg install python
 clear
-pkg install python3
-clear
 pkg install filet
 clear
 pkg install ruby -y
