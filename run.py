@@ -119,10 +119,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;93mSalah Jembut:v"
-            os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
+            os.system('xdg-open https://github.com/Yayan-XD/Cr4ck')
     else:
         print "\033[1;93mSalah Jembut:v"
-        os.system('xdg-open https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0')
+        os.system('xdg-open https://github.com/Yayan-XD/Cr4ck')
 
 ##### LICENSE #####
 #=================#
