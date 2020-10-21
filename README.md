@@ -63,8 +63,10 @@ bash setup.sh
 * Username & password 
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/IMG_20201018_102805.JPG" />
 
-#Turtorial cara dapatkan cokies fb
-[Download](https://bit.ly/GetCookiesForFpPlus)file cokies dan upload ke kiwi browser
+# Turtorial cara dapatkan cokies fb
+[Download](https://bit.ly/GetCookiesForFpPlus) file cokies dan upload ke kiwi browser
+* Buka apk kiwi browser dan klik titik tiga
+1.png
 
 ## MY SOCIAL MEDIA
 [![Github](https://img.shields.io/badge/Github-Ikuti-green?style=for-the-badge&logo=github)](https://github.com/Yayan-XD)
