@@ -65,8 +65,16 @@ bash setup.sh
 
 # Turtorial cara dapatkan cokies fb
 [Download](https://bit.ly/GetCookiesForFpPlus) file cokies dan upload ke kiwi browser
-* Buka apk kiwi browser dan klik titik tiga
-1.png
+01. Buka apk kiwi browser dan klik titik tiga
+<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/1.png" />
+02. Tros pilih yang gua puterin
+<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/2.png" />
+03. Upload file yang lo download tadi di atas
+<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/3.png" />
+04. Login akun Facebook anda
+<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/4.png" />
+05. Klik titik tiga lagi, tros gulir ke bawah pilih yg gua lingkari
+<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/5.png" />
 
 ## MY SOCIAL MEDIA
 [![Github](https://img.shields.io/badge/Github-Ikuti-green?style=for-the-badge&logo=github)](https://github.com/Yayan-XD)
