@@ -77,6 +77,7 @@ bash setup.sh
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/5.png" />
 06. Dan berhasil mendapkan cokies fb langsung login kan ke tools nya tod😎🤘
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/6.png" />
+
 ## MY SOCIAL MEDIA
 [![Github](https://img.shields.io/badge/Github-Ikuti-green?style=for-the-badge&logo=github)](https://github.com/Yayan-XD)
 [![Twitter](https://img.shields.io/badge/twitter-Ikuti-green?style=for-the-badge&logo=Twitter)](https://mobile.twitter.com/moch_xd)
