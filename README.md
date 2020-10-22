@@ -69,7 +69,7 @@ Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upl
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/1.png" />
 02. Tros pilih yang gua puterin
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/2.png" />
-03. Upload file yang lo download tadi di atas
+03. Upload file Get Cookie For FPlus yang lo download tadi di atas
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/3.png" />
 04. Login akun Facebook anda
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/4.png" />
@@ -83,5 +83,5 @@ Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upl
 [![Twitter](https://img.shields.io/badge/twitter-Ikuti-green?style=for-the-badge&logo=Twitter)](https://mobile.twitter.com/moch_xd)
 [![Facebook](https://img.shields.io/badge/Facebook-Ikuti-green?style=for-the-badge&logo=facebook)](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR)
 [![Instagram](https://img.shields.io/badge/Instagram-Ikuti-green?style=for-the-badge&logo=instagram)](https://Instagram.com/yayanxd_)
-* Kalo masih yg kurang paham bisa hubungi WhatsApp👇
+* Kalo masih kurang paham bisa hubungi WhatsApp👇
 [![WhatsApp](https://img.shields.io/badge/whatsapp-Hubungi-brightgreen?style=for-the-badge&logo=whatsapp)](https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0)
