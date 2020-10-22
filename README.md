@@ -64,7 +64,7 @@ bash setup.sh
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/IMG_20201018_102805.JPG" />
 
 # Turtorial cara dapatkan cokies fb
-[Download](https://bit.ly/GetCookiesForFpPlus) file cokies dan upload ke [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dkiwi+browser)
+Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upload ke [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dkiwi+browser)
 01. Buka apk kiwi browser dan klik titik tiga
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/1.png" />
 02. Tros pilih yang gua puterin
