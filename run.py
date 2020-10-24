@@ -103,7 +103,7 @@ jalan("\033[1;96m/\ /   \033[1;91m●  \033[1;92mω \033[1;91m●\033[1;96m）  
 jalan("\033[1;96m\ ｜　 つ　  ヽつ\033[1;95mInstagram \033[1;91m: \033[1;92m@yayanxd_")
 jalan("\033[1;94m────────────────────────────────────────────────")
 jalan("\033[1;93mSudahkah anda mempunyai username & password")
-jalan("\033[1;94m untuk login tools? Kalo tidak punya") 
+jalan("\033[1;94m Untuk login tools? Kalo tidak punya") 
 jalan("\033[1;93mNgasal saja tod nanti di alihkan")
 print "\033[1;94m────────────────────────────────────────────────"""
 CorrectUsername = "Yayan"
