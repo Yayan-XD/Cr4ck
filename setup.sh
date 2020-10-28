@@ -37,9 +37,11 @@ echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯�
 echo
 sleep 2
 clear
-pip2 install mechanize
-clear
 pip2 install requests
+clear
+pip2 install tqdm
+clear
+pip2 install mechanize
 clear
 pip install requests bs4
 clear
