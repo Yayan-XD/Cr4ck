@@ -43,4 +43,4 @@ pip2 install requests
 clear
 pip install requests bs4
 clear
-python2 run.py
+python2 Contoh.py
