@@ -54,7 +54,7 @@ pkg install python2
 pkg install git
 git clone https://github.com/Yayan-XD/Cr4ck
 ```
-### And Silent this script
+### And Cr4ck this script
 ```
 cd Cr4ck
 bash setup.sh
@@ -85,3 +85,4 @@ Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upl
 [![Instagram](https://img.shields.io/badge/Instagram-Ikuti-green?style=for-the-badge&logo=instagram)](https://Instagram.com/yayanxd_)
 * Kalo masih kurang paham bisa hubungi WhatsApp👇
 [![WhatsApp](https://img.shields.io/badge/whatsapp-Hubungi-brightgreen?style=for-the-badge&logo=whatsapp)](https://api.whatsapp.com/send/?phone=%2B6285603036683&text&app_absent=0)
+
