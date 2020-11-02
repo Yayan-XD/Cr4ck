@@ -54,7 +54,7 @@ pkg install python2
 pkg install git
 git clone https://github.com/Yayan-XD/Cr4ck
 ```
-### And Silent this script
+### And Cr4ck this script
 ```
 cd Cr4ck
 bash setup.sh
