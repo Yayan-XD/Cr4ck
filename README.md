@@ -87,4 +87,4 @@ Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upl
 [![WhatsApp](https://img.shields.io/badge/whatsapp-Hubungi-brightgreen?style=for-the-badge&logo=whatsapp)](https://wa.me/6285603036683?text=Asalamualaikum+bang)
  
  <a href="https://github.com/Yayan-XD/Cr4ck">
-    <img alt="WhatsApp" src="https://img.shields.io/
+    <img alt="WhatsApp" src="https://img.shields.io/badge/whatsapp-Hubungi-brightgreen?style=for-the-badge&logo=whatsapp.svg"/>
