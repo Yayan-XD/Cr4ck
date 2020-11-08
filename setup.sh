@@ -4,8 +4,18 @@ echo
 echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
 echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
 echo
-pkg install python -y
-clear 
+pip2 install requests
+clear
+pip2 install tqdm
+clear
+pip2 install mechanize
+clear
+pip install requests
+clear
+pip install mechanize
+clear
+pip install requests bs4
+clear
 pkg install filet
 clear
 pkg install ruby -y
@@ -37,12 +47,4 @@ echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯�
 echo
 sleep 2
 clear
-pip2 install requests
-clear
-pip2 install tqdm
-clear
-pip2 install mechanize
-clear
-pip install requests bs4
-clear
-python2 Contoh.py
+python2 Cr4ck.py
