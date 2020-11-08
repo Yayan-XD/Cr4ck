@@ -49,15 +49,16 @@ Tools update bro crack mail no login, crack id login cokies
 ```
 ### Install
 ```
-pkg update && pkg upgrade
-pkg install python2
-pkg install git
-git clone https://github.com/Yayan-XD/Cr4ck
+$ pkg update && pkg upgrade
+$ pkg install python && pkg install python2
+$ pkg install git
+$ git clone https://github.com/Yayan-XD/Cr4ck
 ```
 ### And Cr4ck this script
 ```
-cd Cr4ck
-bash setup.sh
+$ cd Cr4ck
+$ bash setup.sh
+$ python2 Cr4ck.py
 ```
 
 * Username & password 
