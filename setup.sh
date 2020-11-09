@@ -57,15 +57,6 @@ figlet YayanXD | lolcat
 sleep 2
 clear
 echo
-echo "██    ██ ██   ██ ███    ██ ███████ " | lolcat
-echo " ██  ██  ██   ██ ████   ██    ███  " | lolcat
-echo "  ████   ███████ ██ ██  ██   ███   " | lolcat
-echo "   ██         ██ ██  ██ ██  ███    " | lolcat
-echo "   ██         ██ ██   ████ ███████ " | lolcat
-echo
-sleep 2
-clear
-echo
 echo "╭╮╮╱▔▔▔▔╲╭╭╮╭╮╮╱▔▔▔▔╲╭╭╮╭╮╮╱▔▔▔▔╲╭╭╮" | lolcat
 echo "╰╲╲▏▂╲╱▂▕╱╱╯╰╲╲▏▂╲╱▂▕╱╱╯╰╲╲▏▂╲╱▂▕╱╱╯" | lolcat
 echo "┈┈╲▏▇▏▕▇▕╱┈┈┈┈╲▏▇▏▕▇▕╱┈┈┈┈╲▏▇▏▕▇▕╱┈┈" | lolcat
