@@ -6,6 +6,10 @@ echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
 echo
 pip2 install requests
 clear
+echo
+echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
+echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo
 pip2 install tqdm
 clear
 echo
@@ -65,6 +69,4 @@ echo "╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮�
 echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯" | lolcat
 echo
 echo
-echo "™卝︻╦̵̵͇̿̿̿̿≛╧────────────═◍➠" | lolcat
 echo "Langsung ketik python2 Cr4ck.py" | lolcat
-echo "™卝︻╦̵̵͇̿̿̿̿≛╧────────────═◍➠" | Lolcat
