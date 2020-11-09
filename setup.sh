@@ -64,6 +64,7 @@ echo "┈┈╱╲▔▕▍▔╱╲┈┈┈┈╱╲▔▕▍▔╱╲┈┈�
 echo "╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮" | lolcat
 echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯" | lolcat
 echo
+echo
 echo "™卝︻╦̵̵͇̿̿̿̿≛╧────────────═◍➠" | lolcat
-echo "║Langsung ketik python2 Cr4ck.py║" | lolcat
-echo "™卝︻╦̵̵͇̿̿̿̿≛╧────────────═◍➠"| Lolcat
+echo "Langsung ketik python2 Cr4ck.py" | lolcat
+echo "™卝︻╦̵̵͇̿̿̿̿≛╧────────────═◍➠" | Lolcat
