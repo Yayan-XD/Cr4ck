@@ -61,8 +61,15 @@ $ bash setup.sh
 $ python2 Cr4ck.py
 ```
 
-* Username & password 
-<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/IMG_20201018_102805.JPG" />
+* Username & password
+```
+Username : Yayan
+Password : Cr4ck
+```
+
+## Screenshot
+* Note! Bila akunya cp simpan saja 1/5 hari nanti kebuka sendiri..
+<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/Screenshot.png" />
 
 # Turtorial cara dapatkan cokies fb
 Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upload ke [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dkiwi+browser)
