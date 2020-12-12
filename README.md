@@ -93,4 +93,4 @@ Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upl
 [![Instagram](https://img.shields.io/badge/Instagram-Ikuti-green?style=for-the-badge&logo=instagram)](https://Instagram.com/yayanxd_)
 * Kalo masih kurang paham bisa hubungi WhatsApp👇
 [![](https://img.shields.io/badge/Whatsapp-CHAT-red?logo=Whatsapp&logoColor=red&labelColor=white)](https://wa.me/6285603036683?text=Asalamualaikum+bang)
-[![](https://img.shields.io/badge/Facebook-CHAT-blue?logo=Facebook&logoColor=red&labelColor=white)](https://wa.me/6285603036683?text=Asalamualaikum+bang)
+[![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=white)](https://wa.me/6285603036683?text=Asalamualaikum+bang)
