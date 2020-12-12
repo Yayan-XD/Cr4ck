@@ -87,7 +87,7 @@ Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upl
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/6.png" />
 
 ## MY SOCIAL MEDIA
-[![](https://img.shields.io/badge/Github-red?logo=Gitub&logoColor=red&labelColor=white)](https://github.com/Yayan-XD)
+[![](https://img.shields.io/badge/Github-red?logo=Github&logoColor=red&labelColor=white)](https://github.com/Yayan-XD)
 [![](https://img.shields.io/badge/Twitter-blue?logo=Twitter&logoColor=White&labelColor=white)](https://mobile.twitter.com/moch_xd)
 [![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=white)](https://www.facebook.com/KM39453)
 [![](https://img.shields.io/badge/Instagram-red?logo=Instagram&logoColor=red&labelColor=white)](https://www.instagram.com/yayanxd_/)
