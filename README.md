@@ -92,4 +92,4 @@ Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upl
 [![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=white)](https://www.facebook.com/KM39453)
 [![](https://img.shields.io/badge/Instagram-red?logo=Instagram&logoColor=red&labelColor=white)](https://www.instagram.com/yayanxd_/)
 * Kalo masih kurang paham bisa hubungi WhatsApp👇
-[![](https://img.shields.io/badge/Whatsapp-CHAT-red?logo=Whatsapp&logoColor=red&labelColor=white)](https://wa.me/6285603036683?text=Asalamualaikum+bang)
+[![](https://img.shields.io/badge/Whatsapp-CHAT-green?logo=Whatsapp&logoColor=red&labelColor=white)](https://wa.me/6285603036683?text=Asalamualaikum+bang)
