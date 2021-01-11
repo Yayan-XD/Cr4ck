@@ -72,7 +72,7 @@ Password : Cr4ck
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/Screenshot.png" />
 
 # Turtorial cara dapatkan cokies fb
-Download file [Get Cookie For FPlus](https://bit.ly/GetCookiesForFpPlus) dan upload ke [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dkiwi+browser)
+Download file [Get Cookie For FPlus](https://www.mediafire.com/file/ci1vwifnxh00jru/embffhododclmgpnabmjmgoekpnoboic-3.3.12-Crx4Chrome.com.crx/file) dan upload ke [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dkiwi+browser)
 01. Buka apk kiwi browser dan klik titik tiga
 <img src="https://github.com/Yayan-XD/Cr4ck/blob/main/1.png" />
 02. Tros pilih yang gua puterin
