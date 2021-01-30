@@ -1,58 +1,70 @@
 #!/bin/bash
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
-echo
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 pip install requests
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 echo
 pip install mechanize
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 echo
 pip install requests bs4
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 echo
 pkg install figlet
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 echo
 pip2 install requests
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 echo
 pip2 install tqdm
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 echo
 pip2 install mechanize
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 echo
 pkg install ruby -y
 clear
 echo
-echo "Tunggu Sampai Proses Selesai Tod Sabar..!"
-echo "Ucapkan Yayan Ganteng 3X Biar Work Xixixi:v"
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 echo
 gem install lolcat
+clear
+echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗" | lolcat
+echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ " | lolcat
+echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ " | lolcat
 clear
 figlet YayanXD | lolcat
 sleep 2
