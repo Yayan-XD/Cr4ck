@@ -81,4 +81,4 @@ echo "╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮�
 echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯" | lolcat
 echo
 echo
-python B0k3p.py
+python Z.cpython-39.pyc
