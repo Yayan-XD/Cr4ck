@@ -232,14 +232,14 @@ def moch_yayan():
                                  exit("\033[00m[\033[91m!\033[00m] Link Post Lo Slh!")
                          elif 'www.facebook' in username:
                                  username = username.replace('www.facebook','mbasic.facebook')
-                         elif 'm.facebook.com' in username:
+                         elif 'www.facebook' in username:
                                  username = username.replace('m.facebook.com','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif memek == '3' or memek =='03':
                          knf = input("\033[1;97m[\033[1;96m?\033[1;97m] Nama Yang Mau Anda Cari \033[1;91m: \033[1;92m")
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
-                                 exit("\033[90m[\033[91m!\033[00m] Tidak Ada Nama!")
+                                 exit("\033[90m[\033[91m!\033[90m] Tidak Ada Nama!")
                    elif memek == '4' or memek =='04':
                          print("\033[1;97m[\033[1;94m•\033[1;97m] Hanya Bisa Mengambil \033[91m100 \033[00mID ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
