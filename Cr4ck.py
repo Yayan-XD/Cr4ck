@@ -35,7 +35,7 @@ def balik():
     if yayan == "": 
        os.system("python Cr4ck.py")
     else:
-       sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97] \033[1;91mKeluar")
+       sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97] \033[1;91mSelamat Tinggal :')")
 def moch_yayan():
     time.sleep(0.1)
     print("\033[00m[\033[96m01\033[00m] Mulai Cr4ck ID")
