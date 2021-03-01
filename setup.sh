@@ -72,7 +72,7 @@ echo
 clear
 echo
 echo
-echo      "\033[0;97m[\033[0;92m√\033[0;97m] \033[0;92mInstal Bahan Telah Selesai..."
-echo   " \033[0;97mKetik python Cr4ck.py Untuk Melanjutkan "
+echo      "33[0;37m[33[0;32m√33[0;37m] 33[0;32mInstal Bahan Telah Selesai..."
+echo   " 33[0;37mKetik python Cr4ck.py Untuk Melanjutkan "
 echo
 echo
