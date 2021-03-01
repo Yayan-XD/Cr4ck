@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 
 def perbarui():
-	 os.system("git pull")
+    os.system("git pull")
 def clear():
     os.system("clear")
 def kata(s):
