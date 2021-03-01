@@ -304,7 +304,7 @@ def moch_yayan():
                    jembut()
                    print('\n\n\x1b[1;95m    疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;94m         ⛯   Total ID\x1b[1;92m ' + str(len(id)) + "⛯",end="")
-                   print('\x1b[1;95m.       疊╚═╩═────••♽••─────═╩═╝疊
+                   print('\x1b[1;95m.            疊╚═╩═────••♽••─────═╩═╝疊')
                    expass = input("\n\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
