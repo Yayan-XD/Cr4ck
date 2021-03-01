@@ -62,7 +62,7 @@ $ bash setup.sh
 
 ## Screenshot
 * Note! Bila akunya cp simpan saja 1/5 hari nanti kebuka sendiri..
-<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/Screenshot.png" />
+<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/Screenshot_20210301_142727.jpg" />
 
 ### MY SOCIAL MEDIA
 [![](https://img.shields.io/badge/Github-red?logo=Github&logoColor=red&labelColor=white)](https://github.com/Yayan-XD)
