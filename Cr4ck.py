@@ -287,7 +287,7 @@ def moch_yayan():
                    else:
                          exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
                    print()
-                   print '\x1b[1;97m[+] \x1b[0mTotal ID : ' + str(len(id))
+                   print('\x1b[1;97m[+] \x1b[0mTotal ID : ') + str(len(id))
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
@@ -334,7 +334,7 @@ def moch_yayan():
          os.system('xdg-open https://www.facebook.com/groups/453688872336137')
          yayanxd()
     elif yayan == "5" or yayan =="05":
-         print("\n\n\x1b[1;97m  [ \x1b[1;92mMohon Tunggu Sedang Mengupdate Tools \x1b[1;97m]\n")
+         print("\n\n\x1b[1;97m    [ \x1b[1;92mMohon Tunggu Sedang Mengupdate Tools \x1b[1;97m]\n")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Di Update!\n ")
          yayanxd()
