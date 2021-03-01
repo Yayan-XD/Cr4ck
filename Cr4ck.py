@@ -31,7 +31,7 @@ def baner():
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def balik():
-    yayan=input("\n\033[00m\t     [\033[96m Tekan Enter Untuk Kembali\033[97m ]")
+    yayan=input("\n\033[00m\t  [\033[96m Tekan Enter Untuk Kembali\033[97m ] ")
     if yayan == "": 
        os.system("python Cr4ck.py")
     else:
