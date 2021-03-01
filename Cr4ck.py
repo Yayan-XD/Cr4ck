@@ -11,14 +11,14 @@ def perbarui():
     os.system("git pull")
 def clear():
     os.system("clear")
-def kata(s):
+def aahh(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
 def kontol():
     time.sleep(0.3)
-    kata("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
+    aahh("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
      ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
      ██║     ██████╔╝███████║██║     █████╔╝ 
 \x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
@@ -97,7 +97,7 @@ def moch_yayan():
                      except :
                              pass
                      return cek["cookie"]
-                     kata('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Berhasil')
+                     aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Berhasil')
              else:
                   os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
                   os.system('rm -rf cookies')
@@ -207,34 +207,34 @@ def moch_yayan():
                    kuki = {'cookie':kukis}
                    clear()
                    kontol()
-                   kata('\033[1;97m [\033[1;92m01\033[1;97m] Crack Dari Teman')
-                   kata('\033[1;97m [\033[1;92m02\033[1;97m] Crack Dari Link Post ')
-                   kata('\033[1;97m [\033[1;92m03\033[1;97m] Crack Dari Pencarian Nama')
-                   kata('\033[1;97m [\033[1;92m04\033[1;97m] Crack Dari Dari Grup')
-                   kata('\033[1;97m [\033[1;92m05\033[1;97m] Crack Dari ID Publik ')
-                   kata('\033[1;97m [\033[1;92m06\033[1;97m] Lihat Hasil Crack')
-                   kata('\033[1;97m [\033[1;92m07\033[1;97m] Hapus Cookies')
-                   kata('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
-                   kata('\x1b[1;94m────────────────────────────────────────────────────')
+                   aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack Dari Teman')
+                   aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack Dari Link Post ')
+                   aahh('\033[1;97m [\033[1;92m03\033[1;97m] Crack Dari Pencarian Nama')
+                   aahh('\033[1;97m [\033[1;92m04\033[1;97m] Crack Dari Dari Grup')
+                   aahh('\033[1;97m [\033[1;92m05\033[1;97m] Crack Dari ID Publik ')
+                   aahh('\033[1;97m [\033[1;92m06\033[1;97m] Lihat Hasil Crack')
+                   aahh('\033[1;97m [\033[1;92m07\033[1;97m] Hapus Cookies')
+                   aahh('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
+                   aahh('\x1b[1;94m────────────────────────────────────────────────────')
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
                          exit("\033[00m [\033[91m!\033[00m] Lihat Menu Dong")
                    elif memek == '0' or memek =='00':
-                         kata("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
+                         aahh("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
                          os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
                          exit()                   	
                    elif memek == '7' or memek =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mMohon Tunggu... ")
-                         kata("\x1b[1;92m • 10")
-                         kata("\x1b[1;93m •• 20")
-                         kata("\x1b[1;94m ••• 30")
-                         kata("\x1b[1;95m •••• 40")
-                         kata("\x1b[1;96m ••••• 50")
-                         kata("\x1b[1;97m •••••• 60")
-                         kata("\x1b[1;92m ••••••• 70")
-                         kata("\x1b[1;91m •••••••• 80")
-                         kata("\x1b[1;96m ••••••••• 90")
-                         kata("\x1b[1;94m •••••••••• 100%")
+                         aahh("\x1b[1;92m • 10")
+                         aahh("\x1b[1;93m •• 20")
+                         aahh("\x1b[1;94m ••• 30")
+                         aahh("\x1b[1;95m •••• 40")
+                         aahh("\x1b[1;96m ••••• 50")
+                         aahh("\x1b[1;97m •••••• 60")
+                         aahh("\x1b[1;92m ••••••• 70")
+                         aahh("\x1b[1;91m •••••••• 80")
+                         aahh("\x1b[1;96m ••••••••• 90")
+                         aahh("\x1b[1;94m •••••••••• 100%")
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Terhapus!")
                          yayanxd()
@@ -308,7 +308,7 @@ def moch_yayan():
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
-                   kata('\x1b[1;94m────────────────────────────────────────────────────\n')
+                   aahh('\x1b[1;94m────────────────────────────────────────────────────\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
@@ -356,7 +356,7 @@ def moch_yayan():
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Di Update!\n ")
          yayanxd()
     elif yayan == "0" or yayan =="00":
-         kata("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
+         aahh("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
          os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
          exit()                   	
 
