@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 def croot():
     os.system("git pull")
-def clear():
+def ikeh²_kimochi():
     os.system("clear")
 def aahh(s):
     for c in s + '\n':
@@ -75,7 +75,7 @@ def moch_yayan():
              try:
                     cek = open("cookies").read()
              except FileNotFoundError:
-                   clear()
+                   ikeh²_kimochi()
                    kontol()
                    cek = input("\n\033[0;92m  [ \033[0;97mTools Ini Menggunakan Cokiies Facebook \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mMohon Tunggu...')
@@ -205,7 +205,7 @@ def moch_yayan():
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
-                   clear()
+                   ikeh²_kimochi()
                    kontol()
                    aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack Dari Teman')
                    aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack Dari Link Post ')
@@ -300,7 +300,7 @@ def moch_yayan():
                    else:
                          exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
                    print()
-                   clear()
+                   ikeh²_kimochi()
                    jembut()
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
@@ -361,9 +361,9 @@ def moch_yayan():
          exit()                   	
 
 if __name__=="__main__":
-     clear()
+     ikeh²_kimochi()
      croot()
-     clear()
+     ikeh²_kimochi()
      kontol()
      moch_yayan()
      yayanxd()
