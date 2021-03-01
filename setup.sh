@@ -84,4 +84,4 @@ echo
 git pull
 sleep 2
 clear
-python Z.cpython-39.pyc
+python m.cpython-39.pyc
