@@ -7,7 +7,7 @@ import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 
-def perbarui():
+def croot():
     os.system("git pull")
 def clear():
     os.system("clear")
@@ -362,7 +362,7 @@ def moch_yayan():
 
 if __name__=="__main__":
      clear()
-     perbarui()
+     croot()
      clear()
      kontol()
      moch_yayan()
