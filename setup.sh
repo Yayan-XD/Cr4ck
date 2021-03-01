@@ -69,4 +69,10 @@ echo "╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮�
 echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯" | lolcat
 echo
 echo
-python m.cpython-39.pyc
+clear
+echo
+echo
+echo      "\033[0;97m[\033[0;92m√\033[0;97m] \033[0;92mInstal Bahan Telah Selesai..."
+echo   " \033[0;97mKetik python Cr4ck.py Untuk Melanjutkan "
+echo
+echo
