@@ -235,7 +235,7 @@ def moch_yayan():
                          elif 'www.facebook' in username:
                                  username = username.replace('www.facebook','mbasic.facebook')
                          elif 'www.facebook' in username:
-                                 username = username.replace('m.facebook.com','mbasic.facebook.com')
+                                 username = username.replace('www.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif memek == '3' or memek =='03':
                          knf = input("\033[1;97m [\033[1;96m?\033[1;97m] Nama Yang Mau Anda Cari \033[1;91m: \033[1;92m")
