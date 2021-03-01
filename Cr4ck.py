@@ -333,7 +333,7 @@ def moch_yayan():
          os.system("xdg-open https://www.facebook.com/groups/453688872336137")
          balik()
     elif yayan == "5" or yayan =="05":
-         print("\n\n\x1b[1;97m  [ \x1b[1;92mMohon Tunggu Sedang Mengupdate Tools \x1b[1;97m]")
+         print("\n\n\x1b[1;97m  [ \x1b[1;92mMohon Tunggu Sedang Mengupdate Tools \x1b[1;97m]\n)
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Di Update!\n ")
          os.system("python Cr4ck.py")
