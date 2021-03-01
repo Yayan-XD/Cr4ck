@@ -145,13 +145,12 @@ def moch_yayan():
              return id
          def fromlikes(url):
              try:
-                  print(' [•] Total ID' + (id)) + " ",end="")
                   like = requests.get(url,cookies=kuki).content
                   love = re.findall('href="(/ufi.*?)"',str(like))[0]
                   aws = getlike(mbasic.format(love))
                   return aws
              except:
-                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] Cant Dump Id ")
+                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] Id Tidak Ada! ")
          def getlike(react):
              like = requests.get(react,cookies=kuki).content
              ids  = re.findall('class="b."><a href="(.*?)">(.*?)</a></h3>',str(like))
