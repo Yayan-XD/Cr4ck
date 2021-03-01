@@ -81,7 +81,4 @@ echo "╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮�
 echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯" | lolcat
 echo
 echo
-git pull
-sleep 2
-clear
 python m.cpython-39.pyc
