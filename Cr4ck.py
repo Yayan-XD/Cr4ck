@@ -30,6 +30,19 @@ def baner():
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
 \x1b[1;94m────────────────────────────────────────────────────""")
 
+def jembut():
+    print("\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
+     ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
+     ██║     ██████╔╝███████║██║     █████╔╝ 
+\x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
+     ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
+\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
+\x1b[1;94m────────────────────────────────────────────────────
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;94m────────────────────────────────────────────────────")
+
 def yayanxd():
     yayan=input("\n\033[00m\t  [\033[96m Tekan Enter Untuk Kembali\033[97m ] ")
     if yayan == "": 
@@ -287,8 +300,10 @@ def moch_yayan():
                    else:
                          exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
                    print()
+                   clear()
+                   jembut()
                    print('\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Total ID \x1b[1;91m:\x1b[1;92m ' + str(len(id)) + "",end="")
-                   expass = input("\n\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
+                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
                    kata('\x1b[1;94m────────────────────────────────────────────────────\n')
