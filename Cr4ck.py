@@ -145,7 +145,7 @@ def moch_yayan():
              return id
          def fromlikes(url):
              try:
-                  print(' [•] Total ID' + (id)) + ",end="")
+                  print(' [•] Total ID' + (id)) + " ",end="")
                   like = requests.get(url,cookies=kuki).content
                   love = re.findall('href="(/ufi.*?)"',str(like))[0]
                   aws = getlike(mbasic.format(love))
