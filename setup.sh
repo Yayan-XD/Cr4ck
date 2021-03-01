@@ -26,13 +26,6 @@ echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦
 echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ "
 echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
 echo
-pkg install figlet
-clear
-echo
-echo "   ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗"
-echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ "
-echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
-echo
 pip2 install requests
 clear
 echo
@@ -61,18 +54,18 @@ echo "   ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ �
 echo "   ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
 clear
 echo
-echo "╭╮╮╱▔▔▔▔╲╭╭╮╭╮╮╱▔▔▔▔╲╭╭╮╭╮╮╱▔▔▔▔╲╭╭╮" | lolcat
-echo "╰╲╲▏▂╲╱▂▕╱╱╯╰╲╲▏▂╲╱▂▕╱╱╯╰╲╲▏▂╲╱▂▕╱╱╯" | lolcat
-echo "┈┈╲▏▇▏▕▇▕╱┈┈┈┈╲▏▇▏▕▇▕╱┈┈┈┈╲▏▇▏▕▇▕╱┈┈" | lolcat
-echo "┈┈╱╲▔▕▍▔╱╲┈┈┈┈╱╲▔▕▍▔╱╲┈┈┈┈╱╲▔▕▍▔╱╲┈┈" | lolcat
-echo "╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮" | lolcat
-echo "╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯" | lolcat
+echo "    ╭╮╮╱▔▔▔▔╲╭╭╮╭╮╮╱▔▔▔▔╲╭╭╮╭╮╮╱▔▔▔▔╲╭╭╮" | lolcat
+echo "    ╰╲╲▏▂╲╱▂▕╱╱╯╰╲╲▏▂╲╱▂▕╱╱╯╰╲╲▏▂╲╱▂▕╱╱╯" | lolcat
+echo "    ┈┈╲▏▇▏▕▇▕╱┈┈┈┈╲▏▇▏▕▇▕╱┈┈┈┈╲▏▇▏▕▇▕╱┈┈" | lolcat
+echo "    ┈┈╱╲▔▕▍▔╱╲┈┈┈┈╱╲▔▕▍▔╱╲┈┈┈┈╱╲▔▕▍▔╱╲┈┈" | lolcat
+echo "    ╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮╭╱╱▕╋╋╋╋▏╲╲╮" | lolcat
+echo "    ╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯╰╯╯┈╲▂▂╱┈╰╰╯" | lolcat
 echo
 echo
 clear
 echo
 echo
-echo      "33[0;37m[33[0;32m√33[0;37m] 33[0;32mInstal Bahan Telah Selesai..."
-echo   " 33[0;37mKetik python Cr4ck.py Untuk Melanjutkan "
+echo      " [√] Instal Bahan Telah Selesai..." | lolcat
+echo   " Ketik python Cr4ck.py Untuk Melanjutkan "  | lolcat  
 echo
 echo
