@@ -38,10 +38,12 @@ def balik():
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97] \033[1;91mSelamat Tinggal :')")
 def moch_yayan():
     time.sleep(0.1)
-    print("\033[00m [\033[96m01\033[00m] Mulai Cr4ck ID")
-    print("\033[00m [\033[96m02\033[00m] Turtor cara dapatkan cokies fb")
-    print("\033[00m [\033[96m03\033[00m] Update Tools")
-    print("\033[00m [\033[96m00\033[00m] Keluar")
+    print("\033[97m [\033[96m01\033[97m] Mulai Cr4ck ID")
+    print("\033[97m [\033[96m02\033[97m] Turtor cara dapatkan cokies fb")
+    print("\033[97m [\033[96m03\033[97m] Joined Grup Fb ❤️ RATU ERROR ❤️")
+    print("\033[97m [\033[96m04\033[97m] Joined Grup Fb Viral")
+    print("\033[97m [\033[96m05\033[97m] Update Tools")
+    print("\033[97m [\033[91m00\033[97m] Exit")
     print("\x1b[1;94m────────────────────────────────────────────────────")
     time.sleep(0.1)
 
@@ -305,16 +307,16 @@ def moch_yayan():
                    if check != 0 or result != 0:
                            time.sleep(0.1)
                            print("\n\n\x1b[1;94m────────────────────────────────────────────────────\033[00m")
-                           print("\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
-                           print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Hacked     \x1b[1;94m: \033[92mhack.txt\033[00m")
-                           print("\x1b[1;97m[\x1b[1;91m×\x1b[1;97m] Checkpoint \x1b[1;94m: \033[93mcheck.txt\033[00m")
+                           print("\x1b[1;97m [\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
+                           print("\x1b[1;97m [\x1b[1;94m✓\x1b[1;97m] Hacked     \x1b[1;94m: \033[92mhack.txt\033[00m")
+                           print("\x1b[1;97m [\x1b[1;91m×\x1b[1;97m] Checkpoint \x1b[1;94m: \033[93mcheck.txt\033[00m")
                            print("\x1b[1;94m────────────────────────────────────────────────────\033[00m")
                    
                    else:
                            time.sleep(0.1)
                            print("\n\n\x1b[1;94m────────────────────────────────────────────────────\033[00m")
-                           print("\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
-                           print("\x1b[1;97m[\x1b[1;91m×\x1b[1;97m] Tidak ada hasil")
+                           print("\x1b[1;97m [\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
+                           print("\x1b[1;97m [\x1b[1;91m×\x1b[1;97m] Tidak ada hasil")
                            print("\x1b[1;94m────────────────────────────────────────────────────\033[00m")
                except (KeyboardInterrupt,EOFError):
                        exit()
@@ -324,11 +326,17 @@ def moch_yayan():
     elif yayan == "2" or yayan =="02":
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
          balik()
-
     elif yayan == "3" or yayan =="03":
-         os.system("git pull")
+         os.system("xdg-open https://www.facebook.com/groups/1683226775285117")
          balik()
-
+    elif yayan == "4" or yayan =="04":
+         os.system("xdg-open https://www.facebook.com/groups/453688872336137")
+         balik()
+    elif yayan == "5" or yayan =="05":
+         print ("\n\n\x1b[1;97m  [ \x1b[1;92mMohon Tunggu Sedang Mengupdate Tools \x1b[1;97m]
+         os.system("git pull")
+         print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Di Update!\n ")
+         os.system("python Cr4ck.py")
     elif yayan == "0" or yayan =="00":
          kata("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
          os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
