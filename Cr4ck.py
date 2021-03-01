@@ -221,8 +221,8 @@ def moch_yayan():
                          kata("\x1b[1;96m ••••••••• 90")
                          kata("\x1b[1;94m •••••••••• 100%")
                          os.system("rm -rf cookies")
-                         print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Terhapus!\n\n")
-                         exit()
+                         print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Terhapus!")
+                         balik()
                    elif memek == '1' or memek =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
