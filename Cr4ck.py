@@ -320,7 +320,7 @@ def moch_yayan():
                except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
-                       exit("\n\033[00m[\033[91m!\033[00m] Tidak ada koneksi")
+                       exit("\n\n\033[00m[\033[91m!\033[00m] Tidak ada koneksi")
 
     elif yayan == "2" or yayan =="02":
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
@@ -331,9 +331,9 @@ def moch_yayan():
          balik()
 
     elif yayan == "0" or yayan =="00":
-         sys.exit("\033[00m[\033[91m!\033[00m]\033[91mselamat tinggal")
-         exit()
-
+         kata("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
+         os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
+         exit()                   	
 
 if __name__=="__main__":
      clear()
