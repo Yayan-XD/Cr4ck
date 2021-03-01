@@ -38,8 +38,8 @@ def balik():
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97] \033[1;91mSelamat Tinggal :')")
 def moch_yayan():
     time.sleep(0.1)
-    print("\033[97m [\033[96m01\033[97m] Mulai Cr4ck ID")
-    print("\033[97m [\033[96m02\033[97m] Turtor cara dapatkan cokies fb")
+    print("\033[97m [\033[96m01\033[97m] Start  Cr4ck ID")
+    print("\033[97m [\033[96m02\033[97m] Turtor Cara Dapatkan Cokies Fb")
     print("\033[97m [\033[96m03\033[97m] Joined Grup Fb ❤️ RATU ERROR ❤️")
     print("\033[97m [\033[96m04\033[97m] Joined Grup Fb Viral")
     print("\033[97m [\033[96m05\033[97m] Update Tools")
@@ -64,7 +64,7 @@ def moch_yayan():
              except FileNotFoundError:
                    clear()
                    baner()
-                   cek = input("\n\033[0;92m   [ \033[0;97mTools Ini Menggunakan Cokiies Facebook \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
+                   cek = input("\n\033[0;92m  [ \033[0;97mTools Ini Menggunakan Cokiies Facebook \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mMohon Tunggu...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
@@ -194,14 +194,14 @@ def moch_yayan():
                    kuki = {'cookie':kukis}
                    clear()
                    baner()
-                   kata('\033[1;97m [\033[1;92m01\033[1;97m] \033[00mCrack Dari Teman')
-                   kata('\033[1;97m [\033[1;92m02\033[1;97m] \033[00mCrack Dari Link Post ')
-                   kata('\033[1;97m [\033[1;92m03\033[1;97m] \033[00mCrack Dari Pencarian Nama')
-                   kata('\033[1;97m [\033[1;92m04\033[1;97m] \033[00mCrack Dari Dari Grup')
-                   kata('\033[1;97m [\033[1;92m05\033[1;97m] \033[00mCrack Dari ID Publik ')
-                   kata('\033[1;97m [\033[1;92m06\033[1;97m] \033[00mLihat Hasil Crack')
-                   kata('\033[1;97m [\033[1;92m07\033[1;97m] \033[00mHapus Cookies')
-                   kata('\033[1;97m [\033[1;91m00\033[1;97m] \033[00mExit')
+                   kata('\033[1;97m [\033[1;92m01\033[1;97m] Crack Dari Teman')
+                   kata('\033[1;97m [\033[1;92m02\033[1;97m] Crack Dari Link Post ')
+                   kata('\033[1;97m [\033[1;92m03\033[1;97m] Crack Dari Pencarian Nama')
+                   kata('\033[1;97m [\033[1;92m04\033[1;97m] Crack Dari Dari Grup')
+                   kata('\033[1;97m [\033[1;92m05\033[1;97m] Crack Dari ID Publik ')
+                   kata('\033[1;97m [\033[1;92m06\033[1;97m] Lihat Hasil Crack')
+                   kata('\033[1;97m [\033[1;92m07\033[1;97m] Hapus Cookies')
+                   kata('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
                    kata('\x1b[1;94m────────────────────────────────────────────────────')
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
@@ -231,7 +231,7 @@ def moch_yayan():
                    elif memek == '2' or memek =='02':
                          username = input("\033[1;97m [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
-                                 exit("\033[00m[\033[91m!\033[00m] Link Post Lo Slh!")
+                                 exit("\033[00m[\033[91m!\033[00m] Link Post Slh!")
                          elif 'www.facebook' in username:
                                  username = username.replace('www.facebook','mbasic.facebook')
                          elif 'www.facebook' in username:
@@ -281,7 +281,7 @@ def moch_yayan():
                                                  f.write(x+"\n")
 
                                  print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Selesai....")
-                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Saved To \033[1;93mcheck.txt\033[90m|\033[1;92mhack.txt")
+                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Saved To \033[1;93mcheck.txt\033[96m|\033[1;92mhack.txt")
                          except FileNotFoundError:
                                  exit("\n\033[00m[\033[91m!\033[00m] Kamu Tidak Mendapatkan Hasil")
                    else:
