@@ -30,7 +30,7 @@ def baner():
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
 \x1b[1;94m────────────────────────────────────────────────────""")
 
-def balik():
+def yayanxd():
     yayan=input("\n\033[00m\t  [\033[96m Tekan Enter Untuk Kembali\033[97m ] ")
     if yayan == "": 
        os.system("python Cr4ck.py")
@@ -224,7 +224,7 @@ def moch_yayan():
                          kata("\x1b[1;94m •••••••••• 100%")
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Terhapus!")
-                         balik()
+                         yayanxd()
                    elif memek == '1' or memek =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
@@ -306,37 +306,37 @@ def moch_yayan():
                                                   ex.submit(login,(users[1]),(passw))
                    if check != 0 or result != 0:
                            time.sleep(0.1)
-                           print("\n\n\x1b[1;94m────────────────────────────────────────────────────\033[00m")
+                           print("\n\n\x1b[1;94m────────────────────────────────────────────────────")
                            print("\x1b[1;97m [\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
-                           print("\x1b[1;97m [\x1b[1;94m✓\x1b[1;97m] Hacked     \x1b[1;94m: \033[92mhack.txt\033[00m")
-                           print("\x1b[1;97m [\x1b[1;91m×\x1b[1;97m] Checkpoint \x1b[1;94m: \033[93mcheck.txt\033[00m")
-                           print("\x1b[1;94m────────────────────────────────────────────────────\033[00m")
+                           print("\x1b[1;97m [\x1b[1;94m✓\x1b[1;97m] Hacked     \x1b[1;94m: \033[92mhack.txt")
+                           print("\x1b[1;97m [\x1b[1;91m×\x1b[1;97m] Checkpoint \x1b[1;94m: \033[93mcheck.txt")
+                           print("\x1b[1;94m────────────────────────────────────────────────────")
                    
                    else:
                            time.sleep(0.1)
-                           print("\n\n\x1b[1;94m────────────────────────────────────────────────────\033[00m")
+                           print("\n\n\x1b[1;94m────────────────────────────────────────────────────")
                            print("\x1b[1;97m [\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
                            print("\x1b[1;97m [\x1b[1;91m×\x1b[1;97m] Tidak ada hasil")
-                           print("\x1b[1;94m────────────────────────────────────────────────────\033[00m")
+                           print("\x1b[1;94m────────────────────────────────────────────────────")
                except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
-                       exit("\n\n\033[00m[\033[91m!\033[00m] Tidak ada koneksi")
+                       exit("\n\n\033[00m  [\033[91m!\033[00m] Tidak Ada Koneksi")
 
     elif yayan == "2" or yayan =="02":
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
-         balik()
+         yayanxd()
     elif yayan == "3" or yayan =="03":
          os.system('xdg-open https://www.facebook.com/groups/1683226775285117')
-         balik()
+         yayanxd()
     elif yayan == "4" or yayan =="04":
          os.system('xdg-open https://www.facebook.com/groups/453688872336137')
-         balik()
+         yayanxd()
     elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m  [ \x1b[1;92mMohon Tunggu Sedang Mengupdate Tools \x1b[1;97m]\n")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Berhasil Di Update!\n ")
-         os.system("python Cr4ck.py")
+         yayanxd()
     elif yayan == "0" or yayan =="00":
          kata("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
          os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
@@ -348,5 +348,5 @@ if __name__=="__main__":
      clear()
      baner()
      moch_yayan()
-     balik()
+     yayanxd()
 
