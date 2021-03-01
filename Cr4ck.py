@@ -139,7 +139,7 @@ def moch_yayan():
                         continue
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mSedang Mengambil ID...",end="")
+                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mSedang Mengambil ID... ",end="")
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -159,7 +159,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID...',end="")
+                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
              return id
@@ -171,7 +171,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                   else:
                          id.append(user[1] + "|" + user[0].split("?")[0])
-                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97msedang mengambil ID...",end="")
+                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang mengambil ID... ",end="")
              if "Lihat Hasil Selanjutnya" in str(search):
                   bysearch(parser(search,'html.parser').find("a",string="Lihat Hasil Selanjutnya")["href"])
              return id
@@ -183,7 +183,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID...",end="")
+                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ",end="")
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
@@ -287,8 +287,8 @@ def moch_yayan():
                    else:
                          exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
                    print()
-                   print('\x1b[1;97m[+] \x1b[0mTotal ID :' + str(len(id)) + "",end="")
-                   expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
+                   print('\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Total ID \x1b[1;91m:\x1b[1;92m ' + str(len(id)) + "",end="")
+                   expass = input("\n\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
                    kata('\x1b[1;94m────────────────────────────────────────────────────\n')
