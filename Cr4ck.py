@@ -298,7 +298,6 @@ def moch_yayan():
                                                   str(x) + '123',
                                                   str(x) + '1234',
                                                   str(x) + '12345',
-                                                  str(x) + '123456',
                                                   ]
                                           listpass.append(expass)
                                           for passw in set(listpass):
