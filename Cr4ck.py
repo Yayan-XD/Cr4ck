@@ -16,7 +16,7 @@ def kata(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def baner():
+def kontol():
     time.sleep(0.3)
     kata("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
      ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
@@ -76,7 +76,7 @@ def moch_yayan():
                     cek = open("cookies").read()
              except FileNotFoundError:
                    clear()
-                   baner()
+                   kontol()
                    cek = input("\n\033[0;92m  [ \033[0;97mTools Ini Menggunakan Cokiies Facebook \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mMohon Tunggu...')
              cek = {"cookie":cek}
@@ -206,7 +206,7 @@ def moch_yayan():
                    kukis = masuk()
                    kuki = {'cookie':kukis}
                    clear()
-                   baner()
+                   kontol()
                    kata('\033[1;97m [\033[1;92m01\033[1;97m] Crack Dari Teman')
                    kata('\033[1;97m [\033[1;92m02\033[1;97m] Crack Dari Link Post ')
                    kata('\033[1;97m [\033[1;92m03\033[1;97m] Crack Dari Pencarian Nama')
@@ -364,7 +364,7 @@ if __name__=="__main__":
      clear()
      perbarui()
      clear()
-     baner()
+     kontol()
      moch_yayan()
      yayanxd()
 
