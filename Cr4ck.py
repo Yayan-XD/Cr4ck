@@ -205,7 +205,8 @@ def moch_yayan():
                    if memek =="":
                          exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
                    elif memek == '0' or memek =='00':
-                         kata("\n    \033[1;97m [\033[1;96m•\033[1;97m] Selamat Tinggal!")
+                         kata("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
+                         os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
                          exit()                   	
                    elif memek == '7' or memek =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mMohon Tunggu... ")
