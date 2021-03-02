@@ -243,7 +243,7 @@ def moch_yayan():
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
                    elif memek == '2' or memek =='02':
-                         username = input("\033[1;97m [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
+                         username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] Wrong Link!")
                          elif 'www.facebook' in username:
@@ -252,18 +252,18 @@ def moch_yayan():
                                  username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif memek == '3' or memek =='03':
-                         knf = input("\033[1;97m [\033[1;96m?\033[1;97m] The Name You Want To Search For \033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] The Name You Want To Search For \033[1;91m: \033[1;92m")
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] No Name!")
                    elif memek == '4' or memek =='04':
-                         print("\033[1;97m [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
+                         print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
                                  exit("\033[00m[\033[91m!\033[00m] Group ID None!")
                    elif memek == '5' or memek =='05':
-                         knf = input("\033[1;97m [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
+                         knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
                          else:
@@ -280,7 +280,7 @@ def moch_yayan():
                                  a = file1 + file2
                                  final = a.strip().split("\n")
                                  final = set(final)
-                                 print(f"\033[97m [\033[93m{str(len(final))}\033[97m] Account To Check ")
+                                 print(f"\033[97m\n [\033[93m{str(len(final))}\033[97m] Account To Check ")
                                  with ThreadPoolExecutor(max_workers=10) as ex:
                                          for user in final:
                                                  a = user.split("|")
@@ -317,7 +317,7 @@ def moch_yayan():
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
-                   print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
+                   aahh('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
