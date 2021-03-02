@@ -52,7 +52,7 @@ def yayanxd():
 def moch_yayan():
     time.sleep(0.1)
     print("\033[97m [\033[96m01\033[97m] Start  Cr4ck ID")
-    print("\033[97m [\033[96m02\033[97m] Tutor How to Get Fb Cookies")
+    print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
     print("\033[97m [\033[96m03\033[97m] Joined Grup Fb ❤️ RATU ERROR ❤️")
     print("\033[97m [\033[96m04\033[97m] Joined Grup Fb Viral")
     print("\033[97m [\033[96m05\033[97m] Update Tools")
