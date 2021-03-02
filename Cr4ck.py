@@ -356,7 +356,7 @@ def moch_yayan():
          os.system('xdg-open https://www.facebook.com/groups/453688872336137')
          yayanxd()
     elif yayan == "5" or yayan =="05":
-         print("\n\n\x1b[1;97m    [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
+         print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
          yayanxd()
