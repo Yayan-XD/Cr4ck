@@ -140,7 +140,7 @@ def moch_yayan():
              else:
                    die += 1
              for i in list('\|/-•'):
-                            print(f"\r\033[00m [\033[1;91m{i}\033[00m] hacked : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
+                            print(f"\n\r\033[00m [\033[1;91m{i}\033[00m] hacked : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
@@ -308,7 +308,7 @@ def moch_yayan():
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
-                   aahh('\x1b[1;94m────────────────────────────────────────────────────\n')
+                   aahh('\x1b[1;94m────────────────────────────────────────────────────')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
