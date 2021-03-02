@@ -333,10 +333,10 @@ def moch_yayan():
                                                   ex.submit(login,(users[1]),(passw))
                    if check != 0 or result != 0:
                            time.sleep(0.1)
-                           print("\n\n\x1b[1;92m *\x1b[1;97m finished.")
+                           print("\n\n\x1b[1;92m  *\x1b[1;97m finished.")
      
                    else:
-                           print("\n\n\x1b[1;96m *\x1b[1;97m kamu tidak mendapatkan hasil:(")
+                           print("\n\n\x1b[1;96m  *\x1b[1;97m kamu tidak mendapatkan hasil:(")
                except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
