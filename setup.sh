@@ -65,6 +65,6 @@ echo
 clear
 echo
 echo
-echo "       [√] Instal Bahan Telah Selesai..." | lolcat
-echo "    Ketik python Cr4ck.py Untuk Melanjutkan "  | lolcat  
+echo "       [√] Instal Bahan Telah Selesai..."
+echo "    Ketik python Cr4ck.py Untuk Melanjutkan "
 echo
