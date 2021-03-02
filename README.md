@@ -43,7 +43,8 @@ Tools update bro crack mail no login, crack id login cokies
 * Crack ID Grub
 * Crack ID Teman
 * Crack ID Publik
-* Crack Dari Link Post
+* Crack ID Dari Link Post
+* Crack ID Dari Pencarian Nama
 ```
 ### Install
 ```bash
