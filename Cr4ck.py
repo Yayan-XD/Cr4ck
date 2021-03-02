@@ -313,7 +313,7 @@ def moch_yayan():
                    jembut()
                    print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
-                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
+                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] hasil\x1b[1;92m OK\x1b[1;97m di simpan ke : ok.txt\n [\x1b[1;93m-\x1b[1;97m] hasil\x1b[1;93m CP\x1b[1;97m di simpan ke : cp.txt')
                    print('\n [\x1b[1;91m!\x1b[1;97m] matikan mode data untuk menjeda proses crack\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
