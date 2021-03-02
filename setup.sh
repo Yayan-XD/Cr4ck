@@ -72,6 +72,7 @@ echo
 clear
 echo
 echo
-echo "       [√] Instal Bahan Telah Selesai..."
-echo "    Ketik python Cr4ck.py Untuk Melanjutkan "
+echo "       [√] install commando done..."
+echo
+echo "     type python Cr4ck.py to continue "
 echo
