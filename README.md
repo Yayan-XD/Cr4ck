@@ -40,12 +40,10 @@ Tools update bro crack mail no login, crack id login cokies
 
 ### Fitures
 ```
-- Crack Mail Fb gmail,yahoo,hotmail [Tanpa Fb Login]
-- Crack ID Publik 
-- Cloning ID Grub 
-   Multi acc login
-- Mutli type login
-   - Cokies
+* Crack ID Grub
+* Crack ID Teman
+* Crack ID Publik
+* Crack Dari Link Post
 ```
 ### Install
 ```bash
@@ -63,7 +61,7 @@ $ python Cr4ck.py
 
 ### Screenshot
 * Note! Bila akunya cp simpan saja 1/5 hari nanti kebuka sendiri..
-<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/img/Screenshot_20210302_162212.jpg" />
+<img src="https://github.com/Yayan-XD/Cr4ck/blob/main/img/IMG_20210302_162738.jpg" />
 
 ### MY SOCIAL MEDIA
 [![](https://img.shields.io/badge/Github-red?logo=Github&logoColor=red&labelColor=white)](https://github.com/Yayan-XD)
