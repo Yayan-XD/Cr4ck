@@ -38,9 +38,9 @@ def jembut():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;97m [\x1b[1;95m•\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;95m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;95m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def yayanxd():
