@@ -77,7 +77,7 @@ def moch_yayan():
              except FileNotFoundError:
                    ikeh_ikeh_kimochi()
                    kontol()
-                   cek = input("\n\033[0;92m  [ \033[0;97mThis tool Uses Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
+                   cek = input("\n\033[0;92m  [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
@@ -163,7 +163,7 @@ def moch_yayan():
                   aws = getlike(mbasic.format(love))
                   return aws
              except:
-                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] Id Not Found! ")
+                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] Id Not Found!")
          def getlike(react):
              like = requests.get(react,cookies=kuki).content
              ids  = re.findall('class="b."><a href="(.*?)">(.*?)</a></h3>',str(like))
@@ -272,7 +272,7 @@ def moch_yayan():
                                  user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
                                  username = getid(mbasic.format(user))
                          except TypeError:
-                                 exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Does Wrong!")
+                                 exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
                    elif memek == '6' or memek =='06':
                          try:
                                  file1 = open("cp.txt").read()
@@ -307,9 +307,9 @@ def moch_yayan():
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")       
-                   expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Additional Password1 \033[1;91m: \033[1;92m")
-                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Additional Password2 \033[1;91m: \033[1;92m")
-                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Additional Password3 \033[1;91m: \033[1;92m")
+                   expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
+                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
+                   expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
                    aahh('\x1b[1;94m────────────────────────────────────────────────────\n')
                    ikeh_ikeh_kimochi()
                    jembut()
