@@ -246,9 +246,9 @@ def moch_yayan():
                          username = input("\033[1;97m [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] Wrong Link!")
-                         elif 'm.facebook' in username:
-                                 username = username.replace('m.facebook','mbasic.facebook')
-                         elif 'm.facebook' in username:
+                         elif 'www.facebook' in username:
+                                 username = username.replace('www.facebook','mbasic.facebook')
+                         elif 'www.facebook' in username:
                                  username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif memek == '3' or memek =='03':
