@@ -40,14 +40,14 @@ echo "        ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═�
 echo "        ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ "
 echo "        ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
 echo
-pkg install wget
+apt install wget
 clear
 echo
 echo "        ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗"
 echo "        ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ "
 echo "        ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
 echo
-pkg install ruby -y
+apt install ruby -y
 clear
 echo
 echo "        ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗"
