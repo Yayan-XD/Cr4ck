@@ -218,7 +218,8 @@ def moch_yayan():
                    aahh('\x1b[1;94m────────────────────────────────────────────────────')
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
-                         exit("\033[00m [\033[91m!\033[00m] Lihat Menu Dong")
+                         print("\033[00m [\033[91m!\033[00m] Lihat Menu Dong")
+                         yayanxd()
                    elif memek == '0' or memek =='00':
                          aahh("\n\033[1;92m Terimakasih Sudah Memakai Tools Saya\n Jangan lupa Subscribe My YouTube Channel...\n\n")
                          os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
@@ -298,7 +299,8 @@ def moch_yayan():
                          except FileNotFoundError:
                                  exit("\n\033[00m[\033[91m!\033[00m] Kamu Tidak Mendapatkan Hasil")
                    else:
-                         exit("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
+                         print("\033[00m[\033[91m!\033[00m] Lihat Menu Dong")
+                         yayanxd()
                    print()
                    ikeh_ikeh_kimochi()
                    jembut()
