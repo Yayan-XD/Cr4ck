@@ -40,6 +40,13 @@ echo "        ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═�
 echo "        ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ "
 echo "        ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
 echo
+pkg install wget
+clear
+echo
+echo "        ╔═╗╦  ╔═╗╔═╗╔═╗╔═╗  ╦ ╦╔═╗╦╔╦╗"
+echo "        ╠═╝║  ║╣ ╠═╣╚═╗║╣   ║║║╠═╣║ ║ "
+echo "        ╩  ╩═╝╚═╝╩ ╩╚═╝╚═╝  ╚╩╝╩ ╩╩ ╩ "
+echo
 pkg install ruby -y
 clear
 echo
