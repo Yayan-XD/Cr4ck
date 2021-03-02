@@ -335,7 +335,7 @@ def moch_yayan():
      
                    else:
                            print("\n\n\x1b[1;96m *\x1b[1;97m kamu tidak mendapatkan hasil:(")
-                except (KeyboardInterrupt,EOFError):
+               except (KeyboardInterrupt,EOFError):
                        exit()
                except requests.exceptions.ConnectionError:
                        exit("\n\n\033[00m  [\033[91m!\033[00m] Tidak Ada Koneksi")
