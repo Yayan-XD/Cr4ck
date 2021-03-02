@@ -332,8 +332,8 @@ def moch_yayan():
                    if check != 0 or result != 0:
                            time.sleep(0.1)
                            print("\n\n\x1b[1;96m *\x1b[1;92m finished")
+     
                    else:
-                           time.sleep(0.1)
                            print("\n\n\x1b[1;96m *\x1b[1;97m kamu tidak mendapatkan hasil:(")
                 except (KeyboardInterrupt,EOFError):
                        exit()
