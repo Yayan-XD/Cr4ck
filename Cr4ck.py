@@ -163,7 +163,7 @@ def moch_yayan():
                   aws = getlike(mbasic.format(love))
                   return aws
              except:
-                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] Id Not Found!")
+                  exit(" \033[1;97m [\033[1;94m•\033[1;97m] Link Not Found!")
          def getlike(react):
              like = requests.get(react,cookies=kuki).content
              ids  = re.findall('class="b."><a href="(.*?)">(.*?)</a></h3>',str(like))
@@ -245,7 +245,7 @@ def moch_yayan():
                    elif memek == '2' or memek =='02':
                          username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
-                                 exit("\033[00m[\033[91m!\033[00m] Wrong Link!")
+                                 exit("\033[00m[\033[91m!\033[00m] Cannot be empty!")
                          elif 'www.facebook' in username:
                                  username = username.replace('www.facebook','mbasic.facebook')
                          elif 'www.facebook' in username:
