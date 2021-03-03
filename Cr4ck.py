@@ -287,7 +287,7 @@ def moch_yayan():
                                                  ex.submit(login,(a[0]),(a[1]),(True))
                                  os.remove("cp.txt")
                                  os.remove("ok.txt")
-                                 for x in life:
+                                 for x in result:
                                          with open('ok.txt','a') as f:
                                                  f.write(x+'\n')
                                  for x in chek:
