@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #Code by YayanXD 
-#5 September 2020
+#Created 05-07-2020
 #My facebook (https://www.facebook.com/KM39453)
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
