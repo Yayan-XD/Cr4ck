@@ -285,8 +285,6 @@ def moch_yayan():
                                          for user in final:
                                                  a = user.split("|")
                                                  ex.submit(login,(a[0]),(a[1]),(True))
-                                 os.remove("cp.txt")
-                                 os.remove("ok.txt")
                                  for x in result:
                                          with open('ok.txt','a') as f:
                                                  f.write(x+'\n')
