@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Males gw encrypt Tod jika mau recode, recode aja
-# tpi ngotak dikit jangan Lo jual belikan nih sc kontol
+# tpi ngotak dikit jangan Lo jual belikan sc ini kontol
 #Code by YayanXD 
 #Created 05-07-2020
 #My facebook (https://www.facebook.com/KM39453)
