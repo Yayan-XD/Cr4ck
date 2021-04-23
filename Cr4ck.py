@@ -102,7 +102,7 @@ def moch_yayan():
                      return cek["cookie"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
+                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
                   os.system('python Cr4ck.py')
