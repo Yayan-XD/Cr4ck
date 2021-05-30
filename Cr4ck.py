@@ -348,10 +348,10 @@ def moch_yayan():
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
          yayanxd()
     elif yayan == "3" or yayan =="03":
-         os.system('xdg-open https://www.facebook.com/groups/1683226775285117')
+         os.system('xdg-open https://www.facebook.com/groups/271952186154338')
          yayanxd()
     elif yayan == "4" or yayan =="04":
-         os.system('xdg-open https://www.facebook.com/groups/868734063220514')
+         os.system('xdg-open https://www.facebook.com/groups/310605552656196')
          yayanxd()
     elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
