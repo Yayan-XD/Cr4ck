@@ -351,7 +351,7 @@ def moch_yayan():
          os.system('xdg-open https://www.facebook.com/groups/1592269051080491')
          yayanxd()
     elif yayan == "4" or yayan =="04":
-         os.system('xdg-open https://www.facebook.com/groups/310605552656196')
+         os.system('xdg-open https://www.facebook.com/groups/3877586212335618')
          yayanxd()
     elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
